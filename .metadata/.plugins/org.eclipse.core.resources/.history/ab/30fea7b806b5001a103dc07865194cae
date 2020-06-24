@@ -1,0 +1,19 @@
+package com.jusun.web.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.jusun.web.controller.mapper.PokemonMapper;
+import com.jusun.web.domains.PokemonDTO;
+
+public class PokemonServiceImpl implements PokemonService {
+	@Autowired PokemonMapper pokemonMapper;
+
+	@Override
+	public List<PokemonDTO> retriverAll() {
+		// TODO Auto-generated method stub
+		return pokemonMapper.selectAll();
+	}
+
+}

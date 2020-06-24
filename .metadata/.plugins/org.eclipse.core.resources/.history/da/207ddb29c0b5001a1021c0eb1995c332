@@ -1,0 +1,16 @@
+package com.jusun.web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+import com.jusun.web.serviceImpl.PokemonService;
+
+
+
+public class PokemonController {
+	PokemonService pokemonService;
+	
+	
+
+}

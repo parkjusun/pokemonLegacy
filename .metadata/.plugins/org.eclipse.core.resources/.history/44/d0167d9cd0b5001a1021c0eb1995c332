@@ -1,0 +1,10 @@
+package com.jusun.web.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/account")
+public class AcconuntController {
+	private  AcconuntController() {
+		// TODO Auto-generated constructor stub
+	}
+}

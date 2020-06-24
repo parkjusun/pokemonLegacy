@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="org.apache.catalina.LifecycleListener"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="com.jusun.web.controller.mapper.PokemonMapper"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.jusun.web.controller.mapper.UserMapper"/>
+<fullyQualifiedTypeName name="com.jusun.web.serviceImpl.PokemonService"/>
+<fullyQualifiedTypeName name="com.jusun.web.domains.PokemonDTO"/>
+<fullyQualifiedTypeName name="com.jusun.web.domains.RoadDTO"/>
+<fullyQualifiedTypeName name="com.jusun.web.controller.mapper.RoadMapper"/>
+<fullyQualifiedTypeName name="com.jusun.web.serviceImpl.RoadService"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.jusun.web.serviceImpl.UserService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.jusun.web.domains.UserDTO"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+</qualifiedTypeNameHistroy>

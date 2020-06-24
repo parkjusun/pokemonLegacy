@@ -1,0 +1,15 @@
+package com.jusun.web.serviceImpl;
+
+import java.util.List;
+
+import com.jusun.web.domains.PokemonDTO;
+
+public class PokemonServiceImpl implements PokemonService {
+
+	@Override
+	public List<PokemonDTO> retriverAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.jusun.web.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.jusun.web.controller.mapper.UserMapper;
+import com.jusun.web.domains.UserDTO;
+
+public class UserServiceImpl implements UserService {
+	@Autowired UserMapper userMapper;
+	@Override
+	public List<UserDTO> retriverAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

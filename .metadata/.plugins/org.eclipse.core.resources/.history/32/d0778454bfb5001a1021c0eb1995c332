@@ -1,0 +1,20 @@
+package com.jusun.web.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.jusun.web.domains.UserDTO;
+import com.jusun.web.serviceImpl.UserService;
+
+
+@RequestMapping("/user")
+public class UserController {
+	@Autowired UserService userService;
+	
+	public List<UserDTO> getList(){
+		return userService.retriverAll();
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.jusun.web.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/account")
+
+public class AcconuntController {
+	
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	@GetMapping("/join/form")
+	public String joinForm() {
+	logger.info("화면진입");
+		return "join";
+	}
+}

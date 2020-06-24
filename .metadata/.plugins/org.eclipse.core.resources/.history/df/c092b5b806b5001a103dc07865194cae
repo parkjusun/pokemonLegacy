@@ -1,0 +1,13 @@
+package com.jusun.web.controller.mapper;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.jusun.web.domains.RoadDTO;
+
+@Repository
+public interface RoadMapper {
+	public List<RoadDTO> selectAll();
+
+}

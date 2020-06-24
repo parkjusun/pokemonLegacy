@@ -1,0 +1,5 @@
+package com.jusun.web.controller.mapper;
+
+public interface PokemonMapper {
+
+}

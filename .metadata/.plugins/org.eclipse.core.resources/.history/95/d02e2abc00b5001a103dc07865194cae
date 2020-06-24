@@ -1,0 +1,7 @@
+package com.jusun.web.serviceImpl;
+
+@Data
+@Component
+public interface PokemonService {
+
+}

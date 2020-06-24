@@ -1,0 +1,2 @@
+jdbc.driverClassName=org.mariadb.jdbc.Driver
+url: jdbc:mariadb://mariadb.ciucnrsd2qon.ap-northeast-2.rds.amazonaws.com:3306/jusundb

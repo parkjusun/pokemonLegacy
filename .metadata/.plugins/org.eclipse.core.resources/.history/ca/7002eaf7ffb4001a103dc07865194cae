@@ -1,0 +1,5 @@
+package com.jusun.web.road;
+
+public class RoadServiceImpl {
+
+}

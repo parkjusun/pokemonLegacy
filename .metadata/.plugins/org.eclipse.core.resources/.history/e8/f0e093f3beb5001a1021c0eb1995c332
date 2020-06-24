@@ -1,0 +1,21 @@
+package com.jusun.web.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.jusun.web.domains.RoadDTO;
+import com.jusun.web.mapper.RoadMapper;
+
+@Service
+public class RoadServiceImpl implements RoadService {
+	@Autowired RoadMapper roadMapper;
+
+	@Override
+	public List<RoadDTO> retriverAll() {
+		// TODO Auto-generated method stub
+		return roadMapper.selectAll();
+	}
+
+}
